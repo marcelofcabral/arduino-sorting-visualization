@@ -8,7 +8,7 @@
 // structure that represents a number in the array
 typedef struct Number {
   unsigned char pins[MAX_BITS];
-  unsigned char pinsState[MAX_BITS];
+  //unsigned char pinsState[MAX_BITS];
   unsigned char value;
 } Number;
 
